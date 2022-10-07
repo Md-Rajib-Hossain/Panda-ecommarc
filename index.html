@@ -13,63 +13,66 @@
 
     <header class="">
         <!-- nav start -->
-        <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/logo.png" alt="Logo" class="d-inline-block align-text-top">
-                </a>
-
-                <form class="d-flex w-50" role="search">
-                    <input class="form-control me-2" style="border-radius: 75px;" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-info bg-light" type="submit">Search</button>
-                </form>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse   justify-content-around" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
-
-                        <li class="nav-item ">
-                            <a class="nav-link  fw-bolder" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bolder" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Product
-                            </a>
-
-                            <ul class="dropdown-menu bg-info">
-                                <li><a class="dropdown-item fw-bolder" href="#">Shoes</a></li>
-                                <li><a class="dropdown-item fw-bolder" href="#">Backpack</a></li>
-                                <li><a class="dropdown-item fw-bolder" href="#">Watch</a></li>
-                            </ul>
-
-
-                        <li class="nav-item">
-                            <a class="nav-link  fw-bolder" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  fw-bolder" aria-current="page" href="#">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  fw-bolder" aria-current="page" href="#">Subscribe</a>
-                        </li>
-
-
-
-                    </ul>
-
+        
+            <nav class="navbar navbar-expand-lg fixed-top bg-info">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                    </a>
+    
+                    <form class="d-flex w-50" role="search">
+                        <input class="form-control me-2" style="border-radius: 75px;" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-info bg-light" type="submit">Search</button>
+                    </form>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse   justify-content-around" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+    
+                            <li class="nav-item ">
+                                <a class="nav-link  fw-bolder" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bolder" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Product
+                                </a>
+    
+                                <ul class="dropdown-menu bg-info">
+                                    <li><a class="dropdown-item fw-bolder" href="#shoes">Shoes</a></li>
+                                    <li><a class="dropdown-item fw-bolder" href="#">Backpack</a></li>
+                                    <li><a class="dropdown-item fw-bolder" href="#">Watch</a></li>
+                                </ul>
+    
+    
+                            <li class="nav-item">
+                                <a class="nav-link  fw-bolder" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fw-bolder" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fw-bolder" aria-current="page" href="#">Subscribe</a>
+                            </li>
+    
+    
+    
+                        </ul>
+    
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        
         <!-- nav end?\ -->
+      
 
         <!-- Carousel start -->
-        <section class="mt-5 container mb-5 ">
+        <section style="margin-top: 100px;" class=" container mb-5 ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active bg-info rounded-4 p-5">
@@ -182,8 +185,8 @@
 
         <!-- shoes start -->
         <article class="mt-5 ">
-            <div class="container d-flex  align-items-center my-5  justify-content-between   ">
-                <h1>Shows</h1>
+            <div class="container d-flex  align-items-center my-5  justify-content-between   " id="shoes">
+                <h1>Shoes</h1>
                 <a class="link-warning text-decoration-none fs-5 fw-bold" href="">See all</a>
             </div>
             <div class="container text-center">
@@ -312,7 +315,7 @@
         </article>
         <!-- Backpack end  -->
 
-
+         <article class="" id="Subscribe"></article>
 
     </main>
 
